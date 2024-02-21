@@ -1,0 +1,302 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* bg img */
+
+
+.bgimg {
+    background-image: url('Gallery/BG11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+
+}
+
+.bgimg h1 {
+    text-align: center;
+    color: white;
+
+    vertical-align: middle;
+    font-size: 70px;
+}
+
+.bgimg h2 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    vertical-align: middle;
+    margin-top: 13rem;
+}
+
+.bgimg h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+.bgimg a {
+    font-size: 25px;
+    margin-left: 12rem;
+    margin-bottom: 5px;
+    border: white solid 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bgimg a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+
+.social-icons {
+    text-align: center;
+
+    vertical-align: middle;
+
+}
+
+.social-icons p {
+    display: inline-flex;
+    color: white;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+
+/*  NAVBAR */
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav>a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #2d2d2d;
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+.topnav a.active {
+    text-decoration: underline;
+}
+
+/* SLIDESHOW *
+.slideshow-container img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.next:hover,
+.prev:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* CARDS */
+.services {
+    margin-top: 50px;
+    border: solid rgb(121, 116, 116) 1px;
+    box-shadow: 3px 3px 7px #000000;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: gothicb;
+}
+
+.services h6 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/* 
+@media screen and (max-width:769px) {
+    .services {
+        height: 5rem;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .services h1 {
+        text-align: center;
+        vertical-align: center;
+        font-size: 3rem;
+        font-family: gothicb;
+        font-weight: bold;
+
+    }
+
+    .services p {
+        text-align: center;
+        vertical-align: center;
+        font-size: 1rem;
+        font-family: cursive;
+        font-weight: bold;
+        word-wrap: break-word;
+    }
+} */
+
+/* EMPLOYEE */
+
+.cards {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cardbody {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border: #000 solid 0.5px;
+}
+
+.cardbody:hover {
+    box-shadow: 3px 3px 7px #000000;
+}
+
+.cardbody button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.cardbody h1 {
+    margin: 0 25px;
+}
+
+.cardbody a {
+    color: black;
+    cursor: pointer;
+}
+
+.cardbody button:hover,
+.cardbody a:hover {
+    opacity: 0.7;
+}
+
+.cardbody img {
+    max-width: 100%;
+    height: 200px;
+}
+
+
+.cardbody p {
+    color: grey;
+}
+
+@media screen and (max-width:769px) {
+    .cards {
+        display: block;
+    }
+}
+
+/* footer */
+
+.site-footer {
+    background-color: #000000;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer a {
+    color: rgb(252, 252, 252);
+}
+
+.site-footer a:hover {
+    color:#A020F0;
+    text-decoration: none;
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.footerimg {
+    max-width: 100%;
+    height: 80px;
+    margin: 40px 0px 0px 20px;
+
+}
